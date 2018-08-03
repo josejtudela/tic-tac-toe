@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Board /> Should be render render with default squares 1`] = `
+<div
+  className="gridBoard"
+>
+  <div>
+    <h2>
+      Player One
+    </h2>
+    <div
+      className="gridContainer"
+    >
+      <Connect(Component)
+        key="id0"
+        squareId="id0"
+      />
+      <Connect(Component)
+        key="id1"
+        squareId="id1"
+      />
+      <Connect(Component)
+        key="id2"
+        squareId="id2"
+      />
+      <Connect(Component)
+        key="id3"
+        squareId="id3"
+      />
+      <Connect(Component)
+        key="id4"
+        squareId="id4"
+      />
+      <Connect(Component)
+        key="id5"
+        squareId="id5"
+      />
+      <Connect(Component)
+        key="id6"
+        squareId="id6"
+      />
+      <Connect(Component)
+        key="id7"
+        squareId="id7"
+      />
+      <Connect(Component)
+        key="id8"
+        squareId="id8"
+      />
+    </div>
+  </div>
+  <button
+    className="buttonBoard"
+    onClick={[Function]}
+    type="button"
+  >
+    Reset
+  </button>
+</div>
+`;
+
+exports[`<Board /> Should be render render with one square setup 1`] = `
+<div
+  className="gridBoard"
+>
+  <div>
+    <h2>
+      Player Two
+    </h2>
+    <div
+      className="gridContainer"
+    >
+      <Connect(Component)
+        key="id0"
+        squareId="id0"
+      />
+      <Connect(Component)
+        key="id1"
+        squareId="id1"
+      />
+      <Connect(Component)
+        key="id2"
+        squareId="id2"
+      />
+      <Connect(Component)
+        key="id3"
+        squareId="id3"
+      />
+      <Connect(Component)
+        key="id4"
+        squareId="id4"
+      />
+      <Connect(Component)
+        key="id5"
+        squareId="id5"
+      />
+      <Connect(Component)
+        key="id6"
+        squareId="id6"
+      />
+      <Connect(Component)
+        key="id7"
+        squareId="id7"
+      />
+      <Connect(Component)
+        key="id8"
+        squareId="id8"
+      />
+    </div>
+  </div>
+  <button
+    className="buttonBoard"
+    onClick={[Function]}
+    type="button"
+  >
+    Reset
+  </button>
+</div>
+`;

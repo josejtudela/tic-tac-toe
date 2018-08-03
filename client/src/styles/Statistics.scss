@@ -1,0 +1,18 @@
+.girdStatistics {
+    width: 60vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    .girdReact {
+        border-top: 5px solid #00d8ff;
+    }
+    .girdVue {
+        border-top: 5px solid #42b883;
+    }
+}
+
+.gridMovements {
+    display: grid;
+    grid-template-columns: 10% 10% 10%;
+    row-gap: 0.5em;
+}
