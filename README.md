@@ -15,13 +15,11 @@ npm install
 ```shell
 cd tick-tack-toe
 npm start
-cd client
-npm start
+npm run client
 ```
 
 ## Test
 
 ```shell
-cd client
 npm test
 ```
