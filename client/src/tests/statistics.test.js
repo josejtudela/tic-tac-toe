@@ -10,10 +10,12 @@ configure({ adapter: new Adapter() });
 
 describe('<Statistics />', () => {
   test('should be selectable by class "girdStatistics"',() => {
-    const wrapper = mount(<Statistics />);
+    const wrapper = shallow(<Statistics />);
 
     expect(wrapper).toMatchSnapshot();
     wrapper.find('div').at(0).hasClass('girdStatistics');
-    wrapper.find('div').at(1).hasClass('girdReact');
+    wrapper.find('div').at(0).hasClass('girdReact');
+    wrapper.find('div').at(0).hasClass('girdVue');
+    wrapper.find('div').at(0).hasClass('gridMovements');
   });
 });

@@ -1,31 +1,30 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Statistics /> should be selectable by class "girdStatistics" 1`] = `
-<Statistics>
+<div
+  className="girdStatistics"
+>
   <div
-    className="girdStatistics"
+    className="girdReact"
   >
-    <div
-      className="girdReact"
-    >
-      <h1>
-        React wins:
-        0
-      </h1>
-      <h3>
-        Partidas:
-      </h3>
-    </div>
-    <div
-      className="girdVue"
-    >
-      <h1>
-        Vue wins:
-      </h1>
-      <h3>
-        Partidas:
-      </h3>
-    </div>
+    <h1>
+      React wins:
+      0
+    </h1>
+    <h3>
+      Partidas:
+    </h3>
   </div>
-</Statistics>
+  <div
+    className="girdVue"
+  >
+    <h1>
+      Vue wins:
+      0
+    </h1>
+    <h3>
+      Partidas:
+    </h3>
+  </div>
+</div>
 `;

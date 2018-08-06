@@ -11,6 +11,7 @@ class Statistics extends React.Component {
     super(props);
     this.state = {
       react: 0,
+      vue: 0,
     };
   }
 
@@ -18,7 +19,6 @@ class Statistics extends React.Component {
     axios.get('/users')
       .then((res) => {
         const games = res.data;
-
         this.setState(() => {
           const tempState = {
             react: games.react,
@@ -34,9 +34,8 @@ class Statistics extends React.Component {
   }
 
   render() {
-    const { react } = this.state;
+    const { react, vue } = this.state;
     const {
-      vue,
       reactMovements,
       vueMovements,
     } = react !== 0 && this.state;
@@ -90,7 +89,7 @@ class Statistics extends React.Component {
           <h3>
             Partidas:
           </h3>
-          { react !== 0 && vueMovements.map((games, i) => (
+          { vue !== 0 && vueMovements.map((games, i) => (
             <div>
               <span>
                 {i + 1}
